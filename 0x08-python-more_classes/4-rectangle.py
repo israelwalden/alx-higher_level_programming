@@ -11,10 +11,6 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def __del__(self):
-        """prints a string when an instance has been deleted"""
-        print("Bye rectangle...")
-
     @property
     def width(self):
         """getter for the private instance attribute width"""
